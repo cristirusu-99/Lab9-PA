@@ -4,8 +4,9 @@ import entity.Artist;
 import util.PersistenceUtil;
 
 import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
 import java.util.List;
+
+// Implementarea efectiva a metodelor cerute, realizata conform exemplelor din curs
 
 public class ArtistRepository {
 

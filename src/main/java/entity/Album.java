@@ -2,6 +2,10 @@ package entity;
 
 import javax.persistence.*;
 
+// Implementarea structurii elementelor din tabela "albums", a query-urilor necesare pentru metodele "finByName" si
+// "findByArtist" din repository, a getter-elor si setter-elor pentru a accesa/modifica datele unui element, si
+// override-ul metodei "toString" pentru a facilita afisarea datelor.
+
 @Entity
 @Table (name = "albums")
 @NamedQueries({

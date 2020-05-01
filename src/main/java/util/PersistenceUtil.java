@@ -3,6 +3,8 @@ package util;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+//Generare de EntityManagerFactory conform pattern-ului Singleton
+
 public class PersistenceUtil {
     private static PersistenceUtil singleton = null;
 

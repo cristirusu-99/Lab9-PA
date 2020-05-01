@@ -7,6 +7,8 @@ import util.PersistenceUtil;
 import javax.persistence.EntityManager;
 import java.util.List;
 
+// Implementarea efectiva a metodelor cerute, realizata conform exemplelor din curs
+
 public class AlbumRepository {
     public void create(Album album) {
         PersistenceUtil persistenceUtil = PersistenceUtil.getInstance();

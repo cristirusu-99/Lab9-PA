@@ -5,6 +5,8 @@ import entity.Artist;
 import repo.AlbumRepository;
 import repo.ArtistRepository;
 
+// Implementarea metodei "main" si a unor metode ajutatoare
+
 public class AlbumManager {
     private static Artist createArtist(String name, String country) {
         Artist newArtist = new Artist();
